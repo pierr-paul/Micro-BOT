@@ -5876,7 +5876,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="P1" class="0">
 <segment>
 <pinref part="CAPTEUR_ULTRASON" gate="A" pin="3"/>
-<wire x1="73.66" y1="147.32" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="147.32" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P1_4/AIN"/>
 <wire x1="48.26" y1="88.9" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P1_3/AIN"/>
@@ -5890,11 +5890,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="55.88" y1="88.9" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
 <junction x="53.34" y="93.98"/>
-<wire x1="48.26" y1="93.98" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="93.98" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
 <junction x="48.26" y="93.98"/>
-<wire x1="48.26" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="101.6" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="119.38" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="106.68" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P2" class="0">
@@ -5965,13 +5963,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="86.36" y1="109.22" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="P8" class="0">
 <segment>
 <pinref part="CAPTEUR_ULTRASON" gate="A" pin="2"/>
-<wire x1="71.12" y1="147.32" x2="71.12" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="147.32" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P8"/>
-<wire x1="58.42" y1="129.54" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="114.3" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

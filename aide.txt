@@ -18,7 +18,7 @@ Conseils
 
 Utilisation
 
-Les broches à utiliser en entrée sont : P0 pour le capteur infrarouge droit et P8 pour le gauche, tous deux renvoyant une valeur numérique (1 ou 0), ainsi que P2 pour le signal "ECHO" du capteur à ultrasons. Les broches de sortie sont : P1 pour déclencher le signal "TRIG" du capteur ultrason, et P13, P14, P15 et P16 pour le contrôle des moteurs droit et gauche en marche avant et arrière, respectivement via des signaux PWM.
+Les broches à utiliser en entrée sont : P0 pour le capteur infrarouge droit et P2 pour le gauche, tous deux renvoyant une valeur numérique (1 ou 0), ainsi que P8 pour le signal "ECHO" du capteur à ultrasons. Les broches de sortie sont : P1 pour déclencher le signal "TRIG" du capteur ultrason, et P13, P14, P15 et P16 pour le contrôle des moteurs droit et gauche en marche avant et arrière, respectivement via des signaux PWM.
 
 
 Avertissement
