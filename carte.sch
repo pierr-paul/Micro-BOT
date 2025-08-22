@@ -5474,15 +5474,25 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="CAPTEUR_INFRAROUGE_GAUCHE" library="ITR20001:T" deviceset="ITR20001/T" device="RELAY4_ITR20001/T_EVE"/>
-<part name="CAPTEUR_INFRAROUGE_DROIT" library="ITR20001:T" deviceset="ITR20001/T" device="RELAY4_ITR20001/T_EVE"/>
+<part name="CAPTEUR_INFRAROUGE_GAUCHE" library="ITR20001:T" deviceset="ITR20001/T" device="RELAY4_ITR20001/T_EVE">
+<attribute name="LCSC" value="C264269"/>
+</part>
+<part name="CAPTEUR_INFRAROUGE_DROIT" library="ITR20001:T" deviceset="ITR20001/T" device="RELAY4_ITR20001/T_EVE">
+<attribute name="LCSC" value="C264269"/>
+</part>
 <part name="CAPTEUR_ULTRASON" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="PILES" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="MOTEUR_GAUCHE" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="MOTEUR_DROIT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="INTERRUPTEUR" library="KH-SS12F17-G5" deviceset="KH-SS12F17-G5" device=""/>
-<part name="PILOTE_MOTEUR_GAUCHE" library="DRV8837DSGR" deviceset="DRV8837DSGR" device=""/>
-<part name="PILOTE_MOTEUR_DROIT" library="DRV8837DSGR" deviceset="DRV8837DSGR" device=""/>
+<part name="INTERRUPTEUR" library="KH-SS12F17-G5" deviceset="KH-SS12F17-G5" device="">
+<attribute name="LCSC" value="C5274464"/>
+</part>
+<part name="PILOTE_MOTEUR_GAUCHE" library="DRV8837DSGR" deviceset="DRV8837DSGR" device="">
+<attribute name="LCSC" value="C39159"/>
+</part>
+<part name="PILOTE_MOTEUR_DROIT" library="DRV8837DSGR" deviceset="DRV8837DSGR" device="">
+<attribute name="LCSC" value="C39159"/>
+</part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5491,19 +5501,24 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100Ω">
+<attribute name="LCSC" value="C22775"/>
 <attribute name="POPULARITY" value="1KΩ"/>
 </part>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10KΩ">
+<attribute name="LCSC" value="C25804"/>
 <attribute name="POPULARITY" value="1KΩ"/>
 </part>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100Ω">
+<attribute name="LCSC" value="C22775"/>
 <attribute name="POPULARITY" value="1KΩ"/>
 </part>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10KΩ">
+<attribute name="LCSC" value="C25804"/>
 <attribute name="POPULARITY" value="1KΩ"/>
 </part>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="MIC127-140-A01" deviceset="MIC127-140-A01" device=""/>
+<part name="CONNECTEUR_CARTE" library="MIC127-140-A01" deviceset="MIC127-140-A01" device="">
+<attribute name="LCSC" value="C5154027"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -5513,10 +5528,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="CAPTEUR_INFRAROUGE_GAUCHE" gate="A" x="-7.62" y="175.26" smashed="yes">
 <attribute name="NAME" x="15.5946" y="184.3786" size="2.083" layer="95" ratio="6"/>
 <attribute name="VALUE" x="14.9552" y="181.8386" size="2.083" layer="96" ratio="6"/>
+<attribute name="LCSC" x="-7.62" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CAPTEUR_INFRAROUGE_DROIT" gate="A" x="99.06" y="175.26" smashed="yes">
 <attribute name="NAME" x="122.2746" y="184.3786" size="2.083" layer="95" ratio="6"/>
 <attribute name="VALUE" x="121.6352" y="181.8386" size="2.083" layer="96" ratio="6"/>
+<attribute name="LCSC" x="99.06" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CAPTEUR_ULTRASON" gate="A" x="73.66" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="65.405" y="143.51" size="1.778" layer="95" rot="R90"/>
@@ -5537,14 +5554,17 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="INTERRUPTEUR" gate="G$1" x="76.2" y="5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="83.82" y="-13.97" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="81.28" y="-13.97" size="1.778" layer="96" rot="R270" align="center-left"/>
+<attribute name="LCSC" x="76.2" y="5.08" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="PILOTE_MOTEUR_GAUCHE" gate="G$1" x="22.86" y="35.56" smashed="yes">
 <attribute name="NAME" x="49.53" y="43.18" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="49.53" y="40.64" size="1.778" layer="96" align="center-left"/>
+<attribute name="LCSC" x="22.86" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="PILOTE_MOTEUR_DROIT" gate="G$1" x="121.92" y="27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="95.25" y="20.32" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="95.25" y="22.86" size="1.778" layer="96" rot="R180" align="center-left"/>
+<attribute name="LCSC" x="121.92" y="27.94" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="127" y="12.7" smashed="yes">
 <attribute name="VALUE" x="124.46" y="10.16" size="1.778" layer="96"/>
@@ -5570,25 +5590,27 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="R5" gate="G$1" x="-11.43" y="184.785" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-14.732" y="188.595" size="1.778" layer="96" rot="R270"/>
 <attribute name="POPULARITY" x="-11.43" y="184.785" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC" x="-11.43" y="184.785" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="52.07" y="164.465" smashed="yes" rot="R270">
 <attribute name="VALUE" x="48.768" y="168.275" size="1.778" layer="96" rot="R270"/>
 <attribute name="POPULARITY" x="52.07" y="164.465" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC" x="52.07" y="164.465" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="95.25" y="182.245" smashed="yes" rot="R270">
 <attribute name="VALUE" x="91.948" y="186.055" size="1.778" layer="96" rot="R270"/>
 <attribute name="POPULARITY" x="95.25" y="182.245" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC" x="95.25" y="182.245" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="156.21" y="164.465" smashed="yes" rot="R270">
 <attribute name="VALUE" x="152.908" y="168.275" size="1.778" layer="96" rot="R270"/>
 <attribute name="POPULARITY" x="156.21" y="164.465" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LCSC" x="156.21" y="164.465" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GND8" gate="1" x="63.5" y="-12.7" smashed="yes">
-<attribute name="VALUE" x="60.96" y="-15.24" size="1.778" layer="96"/>
-</instance>
-<instance part="J1" gate="G$1" x="73.66" y="71.12" smashed="yes" rot="R270">
+<instance part="CONNECTEUR_CARTE" gate="G$1" x="73.66" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="128.27" y="83.82" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="15.24" y="83.82" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC" x="73.66" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -5650,9 +5672,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="5.08" y1="53.34" x2="5.08" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="SHIELD"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="SHIELD"/>
 <wire x1="20.32" y1="88.9" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="GND_1"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="GND_1"/>
 <wire x1="20.32" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="96.52" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="96.52" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
@@ -5660,19 +5682,19 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="119.38" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="96.52" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="96.52" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="GND_2"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="GND_2"/>
 <wire x1="121.92" y1="88.9" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
 <junction x="121.92" y="96.52"/>
-<pinref part="J1" gate="G$1" pin="GND_3"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="GND_3"/>
 <wire x1="119.38" y1="88.9" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
 <junction x="119.38" y="96.52"/>
-<pinref part="J1" gate="G$1" pin="GND_4"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="GND_4"/>
 <wire x1="116.84" y1="88.9" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 <junction x="116.84" y="96.52"/>
-<pinref part="J1" gate="G$1" pin="GND_5"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="GND_5"/>
 <wire x1="114.3" y1="88.9" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
 <junction x="114.3" y="96.52"/>
-<pinref part="J1" gate="G$1" pin="GND_6"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="GND_6"/>
 <wire x1="111.76" y1="88.9" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
 <junction x="111.76" y="96.52"/>
 <wire x1="20.32" y1="96.52" x2="5.08" y2="96.52" width="0.1524" layer="91"/>
@@ -5703,13 +5725,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="104.14" y1="154.94" x2="104.14" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
 <junction x="93.98" y="165.1"/>
-</segment>
-<segment>
-<pinref part="INTERRUPTEUR" gate="G$1" pin="NO"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="71.12" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="10.16" x2="63.5" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PILOTE_MOTEUR_DROIT" gate="G$1" pin="EP"/>
@@ -5794,24 +5809,24 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="95.25" y1="193.04" x2="83.82" y2="193.04" width="0.1524" layer="91"/>
 <junction x="83.82" y="193.04"/>
 <wire x1="76.2" y1="116.84" x2="91.44" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="+3V3_14"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="+3V3_14"/>
 <wire x1="91.44" y1="88.9" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="+3V3_13"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="+3V3_13"/>
 <wire x1="91.44" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="93.98" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="+3V3_12"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="+3V3_12"/>
 <wire x1="96.52" y1="88.9" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
 <junction x="93.98" y="93.98"/>
-<pinref part="J1" gate="G$1" pin="+3V3_11"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="+3V3_11"/>
 <wire x1="99.06" y1="88.9" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <junction x="96.52" y="93.98"/>
-<pinref part="J1" gate="G$1" pin="+3V3_10"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="+3V3_10"/>
 <wire x1="101.6" y1="88.9" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 <junction x="99.06" y="93.98"/>
-<pinref part="J1" gate="G$1" pin="+3V3_9"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="+3V3_9"/>
 <wire x1="104.14" y1="88.9" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
 <junction x="101.6" y="93.98"/>
@@ -5843,7 +5858,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="PILOTE_MOTEUR_GAUCHE" gate="G$1" pin="IN1"/>
 <wire x1="60.96" y1="2.54" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="30.48" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P16"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P16"/>
 <wire x1="88.9" y1="111.76" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5855,16 +5870,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="156.21" y1="172.72" x2="156.21" y2="169.545" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="172.72" x2="156.21" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P0_4/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P0_4/AIN"/>
 <wire x1="27.94" y1="88.9" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P0_3/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P0_3/AIN"/>
 <wire x1="27.94" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="93.98" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P0_2/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P0_2/AIN"/>
 <wire x1="33.02" y1="88.9" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <junction x="30.48" y="93.98"/>
-<pinref part="J1" gate="G$1" pin="P0_1/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P0_1/AIN"/>
 <wire x1="35.56" y1="88.9" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 <junction x="33.02" y="93.98"/>
@@ -5877,16 +5892,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="CAPTEUR_ULTRASON" gate="A" pin="3"/>
 <wire x1="73.66" y1="147.32" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P1_4/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P1_4/AIN"/>
 <wire x1="48.26" y1="88.9" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P1_3/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P1_3/AIN"/>
 <wire x1="48.26" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="93.98" x2="50.8" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P1_2/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P1_2/AIN"/>
 <wire x1="53.34" y1="88.9" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
 <junction x="50.8" y="93.98"/>
-<pinref part="J1" gate="G$1" pin="P1_1/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P1_1/AIN"/>
 <wire x1="55.88" y1="88.9" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
 <junction x="53.34" y="93.98"/>
@@ -5897,16 +5912,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="P2" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="P2_4/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P2_4/AIN"/>
 <wire x1="71.12" y1="88.9" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P2_3/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P2_3/AIN"/>
 <wire x1="71.12" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="93.98" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P2_2/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P2_2/AIN"/>
 <wire x1="76.2" y1="88.9" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <junction x="73.66" y="93.98"/>
-<pinref part="J1" gate="G$1" pin="P2_1/AIN"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P2_1/AIN"/>
 <wire x1="78.74" y1="88.9" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
 <junction x="76.2" y="93.98"/>
@@ -5930,7 +5945,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="175.26" y1="7.62" x2="83.82" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="106.68" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P13/SCL"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P13/SCL"/>
 <wire x1="81.28" y1="106.68" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="PILOTE_MOTEUR_DROIT" gate="G$1" pin="IN2"/>
 <wire x1="91.44" y1="35.56" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
@@ -5945,7 +5960,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="160.02" y1="149.86" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="121.92" x2="88.9" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="121.92" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P14/MISO"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P14/MISO"/>
 <wire x1="83.82" y1="121.92" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="PILOTE_MOTEUR_DROIT" gate="G$1" pin="IN1"/>
 <wire x1="91.44" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
@@ -5959,7 +5974,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="58.42" y1="5.08" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="PILOTE_MOTEUR_GAUCHE" gate="G$1" pin="IN2"/>
 <wire x1="58.42" y1="27.94" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P15/MOSI"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P15/MOSI"/>
 <wire x1="86.36" y1="109.22" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5968,7 +5983,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="CAPTEUR_ULTRASON" gate="A" pin="2"/>
 <wire x1="71.12" y1="147.32" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="P8"/>
+<pinref part="CONNECTEUR_CARTE" gate="G$1" pin="P8"/>
 <wire x1="58.42" y1="114.3" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
