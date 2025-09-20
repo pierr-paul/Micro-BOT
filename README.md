@@ -50,5 +50,5 @@ Ce projet est distribué sous la <strong>licence MIT</strong>. Vous êtes libre 
 </p>
 
 ### Auteur
-*   **M. Pierre PAUL**, dans le cadre du Master MEEF NSI (2024-2025) à l'INSPÉ de Lorraine - Université de Lorraine.
+*   **M. Pierre PAUL**, dans le cadre du Master MEEF NSI (2024-2026) à l'INSPÉ de Lorraine - Université de Lorraine.
 *   Sous la direction de **MM. David LANGLOIS et Alexis SCHEUER**.
