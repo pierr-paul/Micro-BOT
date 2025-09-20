@@ -5502,19 +5502,19 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100Ω">
 <attribute name="LCSC" value="C22775"/>
-<attribute name="POPULARITY" value="1KΩ"/>
+<attribute name="POPULARITY" value=""/>
 </part>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10KΩ">
 <attribute name="LCSC" value="C25804"/>
-<attribute name="POPULARITY" value="1KΩ"/>
+<attribute name="POPULARITY" value=""/>
 </part>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100Ω">
 <attribute name="LCSC" value="C22775"/>
-<attribute name="POPULARITY" value="1KΩ"/>
+<attribute name="POPULARITY" value=""/>
 </part>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10KΩ">
 <attribute name="LCSC" value="C25804"/>
-<attribute name="POPULARITY" value="1KΩ"/>
+<attribute name="POPULARITY" value=""/>
 </part>
 <part name="CONNECTEUR_CARTE" library="MIC127-140-A01" deviceset="MIC127-140-A01" device="">
 <attribute name="LCSC" value="C5154027"/>
