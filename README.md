@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/pierr-paul/Micro-BOT/blob/main/photo.png?raw=true" alt="Photo du Micro'BOT" width="500"/>
+  <img src="https://github.com/pierr-paul/Micro-BOT/blob/main/photo.png?raw=true" alt="Photo du Micro'BOT" width="350"/>
 </p>
 
 ### Contexte du projet
