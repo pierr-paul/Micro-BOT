@@ -4,13 +4,13 @@
 <strong>Micro'BOT est un robot éducatif open-source, conçu pour l'enseignement et l'expérimentation des concepts algorithmiques dans le cadre du programme de Numérique et Sciences Informatiques (NSI).</strong>
 </p>
 
-<br><br>
+<br>
 
 <p align="center">
   <img src="https://github.com/pierr-paul/Micro-BOT/blob/main/photo.png?raw=true" alt="Photo du Micro'BOT" width="375"/>
 </p>
 
-<br><br>
+<br>
 
 ### Contexte du projet
 
