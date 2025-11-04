@@ -32,6 +32,12 @@ Le Micro'BOT est une plateforme simple et modulaire :
 -   le châssis, les fixations et les roues sont imprimés en 3D ;
 -   une carte électronique s'interface avec la carte micro:bit pour piloter les moteurs et les capteurs.
 
+### Programmation
+
+Le robot peut être programmé avec **Microsoft MakeCode** : [https://makecode.microbit.org/](https://makecode.microbit.org)
+
+Une extension est disponible pour faciliter sa programmation : [https://github.com/pierr-paul/pxt-Micro-BOT](https://github.com/pierr-paul/pxt-Micro-BOT)
+
 ### Contenu du dépôt
 
 Ce dépôt contient l'ensemble des fichiers nécessaires à la fabrication du Micro'BOT :
