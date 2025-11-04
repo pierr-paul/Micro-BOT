@@ -34,7 +34,7 @@ Le Micro'BOT est une plateforme simple et modulaire :
 
 ### Programmation
 
-Le robot peut être programmé avec **Microsoft MakeCode** : [https://makecode.microbit.org/](https://makecode.microbit.org)
+Le robot peut être programmé avec **Microsoft MakeCode** : [https://makecode.microbit.org](https://makecode.microbit.org)
 
 Une extension est disponible pour faciliter sa programmation : [https://github.com/pierr-paul/pxt-Micro-BOT](https://github.com/pierr-paul/pxt-Micro-BOT)
 
