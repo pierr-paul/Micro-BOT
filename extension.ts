@@ -79,7 +79,7 @@ namespace MicroBOT {
      */
     //% block="pivoter à gauche $vitesse \\%"
     //% vitesse.min=0 vitesse.max=100 vitesse.defl=65
-    //% weight=50
+    //% weight=60
     export function pivoter_gauche(vitesse: number): void {
         _moteurs(vitesse, -vitesse);
     }
@@ -89,7 +89,7 @@ namespace MicroBOT {
      */
     //% block="pivoter à droite $vitesse \\%"
     //% vitesse.min=0 vitesse.max=100 vitesse.defl=65
-    //% weight=60
+    //% weight=50
     export function pivoter_droite(vitesse: number): void {
         _moteurs(-vitesse, vitesse);
     }
