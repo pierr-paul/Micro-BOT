@@ -124,22 +124,42 @@ namespace MicroBOT {
     }
 
     /**
-     * Lire le capteur à l'avant : le capteur à l'avant retourne la distance en cm de 0 à 400 cm.
+     * Lire le capteur à l'avant : le capteur à l'avant retourne la distance de 0 à 400 cm.
      */
     //% block="lire le capteur à l'avant"
     //% weight=10
     export function lire_capteur_avant(): number {
-        // Envoyer l'impulsion de déclenchement
         pins.digitalWritePin(brocheTrig, 0);
         control.waitMicros(2);
         pins.digitalWritePin(brocheTrig, 1);
         control.waitMicros(10);
         pins.digitalWritePin(brocheTrig, 0);
 
-        let dureeEcho = pins.pulseIn(brocheEcho, PulseValue.High);
+        let timeout = 10000;
+        let start = input.runningTimeMicros();
+        
+        while (pins.digitalReadPin(brocheEcho) == 0) {
+            if (input.runningTimeMicros() - start > timeout) {
+                return 400;
+            }
+        }
+        
+        let startEcho = input.runningTimeMicros();
+        while (pins.digitalReadPin(brocheEcho) == 1) {
+            if (input.runningTimeMicros() - startEcho > timeout) {
+                return 400;
+            }
+        }
+        
+        let endEcho = input.runningTimeMicros();
+        let dureeEcho = endEcho - startEcho;
 
         let distanceCalculee = Math.idiv(dureeEcho, 58);
-
+        
+        if (distanceCalculee > 400) {
+            return 400;
+        }
+        
         return distanceCalculee;
     }
 }
