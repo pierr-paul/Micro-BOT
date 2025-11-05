@@ -75,25 +75,23 @@ namespace MicroBOT {
     }
 
     /**
-     * Pivoter à gauche : le robot pivote sur place vers la gauche avec les vitesses des deux moteurs paramétrables de 0 à 100 %.
+     * Pivoter à gauche : le robot pivote sur place vers la gauche avec la vitesse paramétrable de 0 à 100 %.
      */
-    //% block="pivoter à gauche $vitesse_gauche \\% $vitesse_droite \\%"
-    //% vitesse_gauche.min=0 vitesse_gauche.max=100 vitesse_gauche.defl=65
-    //% vitesse_droite.min=0 vitesse_droite.max=100 vitesse_droite.defl=65
+    //% block="pivoter à gauche $vitesse \\%"
+    //% vitesse.min=0 vitesse.max=100 vitesse.defl=65
     //% weight=50
-    export function pivoter_gauche(vitesse_gauche: number, vitesse_droite: number): void {
-        _moteurs(vitesse_gauche, -vitesse_droite);
+    export function pivoter_gauche(vitesse: number): void {
+        _moteurs(vitesse, -vitesse);
     }
 
     /**
-     * Pivoter à droite : le robot pivote sur place vers la gauche avec les vitesses des deux moteurs paramétrables de 0 à 100 %.
+     * Pivoter à droite : le robot pivote sur place vers la droite avec la vitesse paramétrable de 0 à 100 %.
      */
-    //% block="pivoter à droite $vitesse_gauche \\% $vitesse_droite \\%"
-    //% vitesse_gauche.min=0 vitesse_gauche.max=100 vitesse_gauche.defl=65
-    //% vitesse_droite.min=0 vitesse_droite.max=100 vitesse_droite.defl=65
+    //% block="pivoter à droite $vitesse \\%"
+    //% vitesse.min=0 vitesse.max=100 vitesse.defl=65
     //% weight=60
-    export function pivoter_droite(vitesse_gauche: number, vitesse_droite: number): void {
-        _moteurs(-vitesse_gauche, vitesse_droite);
+    export function pivoter_droite(vitesse: number): void {
+        _moteurs(-vitesse, vitesse);
     }
 
     /**
