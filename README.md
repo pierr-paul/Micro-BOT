@@ -50,6 +50,7 @@ Ce dépôt contient l'ensemble des fichiers nécessaires à la fabrication du Mi
 *   **`fixation r....stl` (plusieurs fichiers)** : les fichiers STL pour l'impression 3D des différentes pièces du châssis.
 *   **`jante.stl`, `roulette....stl`** : les fichiers STL pour l'impression 3D des roues.
 *   **`JLCPCB....zip`** : l'archive contenant les fichiers Gerber pour une commande professionnelle du circuit imprimé (PCB).
+*   **`pxt.json`, `extension.ts`** : les fichiers de configuration pour l'extension Microsoft MakeCode.
 *   **`actifs`, `classeur.xlsx`, `aide.txt`, `photo.png`, `.gitignore`** : les fichiers de configuration et ressources du projet.
 
 ### Licence
