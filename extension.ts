@@ -8,8 +8,8 @@ namespace MicroBOT {
     const moteurGaucheArriere = AnalogPin.P14;
     const moteurDroitArriere = AnalogPin.P15;
     const moteurDroitAvant = AnalogPin.P16;
-    const brocheCapteurGauche = DigitalPin.P0;
-    const brocheCapteurDroit = DigitalPin.P2;
+    const brocheCapteurGauche = DigitalPin.P2;
+    const brocheCapteurDroit = DigitalPin.P0;
     const brocheTrig = DigitalPin.P1;
     const brocheEcho = DigitalPin.P8;
 
