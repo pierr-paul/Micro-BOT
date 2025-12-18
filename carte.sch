@@ -5482,8 +5482,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="CAPTEUR_ULTRASON" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="PILES" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="MOTEUR_GAUCHE" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="MOTEUR_DROIT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="MOTEUR_GAUCHE" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="INTERRUPTEUR" library="KH-SS12F17-G5" deviceset="KH-SS12F17-G5" device="">
 <attribute name="LCSC" value="C5274464"/>
 </part>
@@ -5543,11 +5543,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="123.19" y="135.255" size="1.778" layer="95"/>
 <attribute name="VALUE" x="123.19" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="MOTEUR_GAUCHE" gate="G$1" x="-7.62" y="33.02" smashed="yes" rot="R180">
+<instance part="MOTEUR_DROIT" gate="G$1" x="-7.62" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="-1.27" y="27.305" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-1.27" y="38.1" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="MOTEUR_DROIT" gate="G$1" x="160.02" y="30.48" smashed="yes">
+<instance part="MOTEUR_GAUCHE" gate="G$1" x="160.02" y="30.48" smashed="yes">
 <attribute name="NAME" x="153.67" y="36.195" size="1.778" layer="95"/>
 <attribute name="VALUE" x="153.67" y="25.4" size="1.778" layer="96"/>
 </instance>
@@ -5618,14 +5618,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="MOTEUR_GAUCHE" gate="G$1" pin="2"/>
+<pinref part="MOTEUR_DROIT" gate="G$1" pin="2"/>
 <pinref part="PILOTE_MOTEUR_GAUCHE" gate="G$1" pin="OUT1"/>
 <wire x1="-5.08" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="MOTEUR_GAUCHE" gate="G$1" pin="1"/>
+<pinref part="MOTEUR_DROIT" gate="G$1" pin="1"/>
 <pinref part="PILOTE_MOTEUR_GAUCHE" gate="G$1" pin="OUT2"/>
 <wire x1="-5.08" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -5633,14 +5633,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="PILOTE_MOTEUR_DROIT" gate="G$1" pin="OUT2"/>
-<pinref part="MOTEUR_DROIT" gate="G$1" pin="1"/>
+<pinref part="MOTEUR_GAUCHE" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="PILOTE_MOTEUR_DROIT" gate="G$1" pin="OUT1"/>
-<pinref part="MOTEUR_DROIT" gate="G$1" pin="2"/>
+<pinref part="MOTEUR_GAUCHE" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="30.48" x2="157.48" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
