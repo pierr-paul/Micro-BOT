@@ -7,7 +7,10 @@
 <br>
 
 <p align="center">
-  <img src="https://github.com/pierr-paul/Micro-BOT/blob/main/icon.png?raw=true" alt="Photo du Micro'BOT" width="375"/>
+  <img src="https://github.com/pierr-paul/Micro-BOT/blob/main/icon.png?raw=true"
+       alt="Photo du Micro'BOT"
+       width="530"
+       height="470" />
 </p>
 
 <br>
