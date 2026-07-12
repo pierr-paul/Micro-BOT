@@ -2,7 +2,7 @@
   "name": "Micro'BOT",
   "version": "1.0.0",
   "description": "Un robot éducatif open-source !",
-  "icon": "https://github.com/pierr-paul/Micro-BOT/blob/main/photo.png?raw=true",
+  "icon": "photo.png",
   "dependencies": {
     "core": "*"
   },
