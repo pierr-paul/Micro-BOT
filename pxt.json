@@ -1,7 +1,7 @@
 {
   "name": "Micro'BOT",
-  "version": "1.0.1",
-  "description": "Blocs de contrôle pour le robot éducatif Micro'BOT",
+  "version": "1.0.0",
+  "description": "Micro'BOT : un robot éducatif open-source !",
   "icon": "photo.png",
   "dependencies": {
     "core": "*"
