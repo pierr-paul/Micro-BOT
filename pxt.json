@@ -1,14 +1,18 @@
 {
   "name": "Micro'BOT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Un robot éducatif open-source !",
   "dependencies": {
     "core": "*"
   },
   "files": [
-    "extension.ts",
-    "icon.png"
+    "extension.ts"
   ],
+  "card": {
+    "name": "Micro'BOT",
+    "description": "Un robot éducatif open-source !",
+    "imageUrl": "https://raw.githubusercontent.com/pierr-paul/Micro-BOT/main/photo.png"
+  },
   "testFiles": [],
   "targetVersions": {
     "target": "6.0.25",
