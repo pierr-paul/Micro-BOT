@@ -8,7 +8,7 @@
   },
   "files": [
     "extension.ts",
-    "icon.png"
+    "photo.png"
   ],
   "testFiles": [],
   "targetVersions": {
