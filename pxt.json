@@ -2,7 +2,6 @@
   "name": "Micro'BOT",
   "version": "1.0.0",
   "description": "Un robot éducatif open-source !",
-  "icon": "photo.png",
   "dependencies": {
     "core": "*"
   },
