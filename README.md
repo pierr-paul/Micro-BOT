@@ -7,9 +7,9 @@
 <br>
 
 <p align="center">
-  <img src="https://github.com/pierr-paul/Micro-BOT/blob/main/icon.png?raw=true"
+  <img src="https://github.com/pierr-paul/Micro-BOT/blob/main/photo.png?raw=true"
        alt="Photo du Micro'BOT"
-       style="width:500px; height:auto;" />
+       style="width:50%;" />
 </p>
 
 <br>
